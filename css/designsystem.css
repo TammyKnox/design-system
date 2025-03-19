@@ -78,6 +78,13 @@ h5{
 .logo-container{
     margin-bottom: 2em;
 }
+.inline-link{
+    color:#EEB2A3;
+}
+
+.inline-link:hover, .inline-link:focus{
+    color:#C3583E;
+}
 
 ul.no-style{
 list-style-type:none;
