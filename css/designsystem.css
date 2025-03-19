@@ -128,6 +128,25 @@ list-style-type:none;
     background-color: #FFFFFF;
 }
 
+.nav-link{
+    color: #fff !important;
+    font-weight: 600;
+}
+
+a:hover, a:focus{
+    color: #EEB2A3 !important;
+    font-weight: 600;
+}
+
+a.navbar-brand{
+    min-width: 5em !important;
+}
+
+.navbar-toggler-icon {
+    filter: invert(1);
+    transform: scale(1.2);
+}
+
 @media screen and (min-width: 480px){
     html{
         font-size: 14px;
