@@ -160,9 +160,9 @@ main {
 
 .pagination {
   --bs-pagination-hover-color: #222;
-  --bs-pagination-hover-bg: #d2f4ea;;
+  --bs-pagination-hover-bg: rgba(255, 255, 255 0.5);
   --bs-pagination-active-color: #222;
-  --bs-pagination-active-bg: #d2f4ea;
+  --bs-pagination-active-bg: rgba(255, 255, 255, 0.5);
   --bs-pagination-active-border-color: #222;
 
 }
