@@ -134,7 +134,7 @@ list-style-type:none;
 }
 
 a:hover, a:focus{
-    color: #EEB2A3 !important;
+    color: EEB2A3# !important;
     font-weight: 600;
 }
 
@@ -145,6 +145,15 @@ a.navbar-brand{
 .navbar-toggler-icon {
     filter: invert(1);
     transform: scale(1.2);
+}
+
+footer{
+    font-weight: 600;
+}
+
+.fa-brands{
+    color: #EEB2A3 !important;
+    font-size: 2rem !important;
 }
 
 @media screen and (min-width: 480px){
