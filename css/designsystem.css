@@ -148,12 +148,34 @@ a.navbar-brand{
 }
 
 footer{
-    font-weight: 600;
+    font-weight: 600 !important;
 }
 
 .fa-brands{
     color: #EEB2A3 !important;
     font-size: 2rem !important;
+}
+a.btn{
+    min-width: 101px;
+}
+.btn{
+    padding: 15px 21px;
+    color: #fff;
+    font-weight: 600;
+    margin:auto;
+}
+
+a.btn:hover, a.btn-active{
+    background-color:#9A3118;
+    color:#fff !important;
+}
+
+.btn-no-fill{
+    border:solid 2px #EEB2A3;
+}
+
+.the-buttons p{
+    color:#fff;
 }
 
 @media screen and (min-width: 480px){

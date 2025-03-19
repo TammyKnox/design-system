@@ -165,17 +165,52 @@
       <div class = "container-fluid overflow-auto">
         <div class = "row p-5">
           <div id="content">
-            <h2>Component 3</h2>
-            <p>See posted student examples. Make sure this works responsively. There are currently no columns in this section. (You will need to add those). </p>
-            <p>For the code - use something like this so that the code does not render in the page. This is using prism.js which is in the files. 
-              Be sure to properly indent the code. 
-            </p>
-     
-            
+            <h1>Button Component</h1>
+            <p>This button component can be used for calls to action, links, and other important information</p>
 
  
-    </div><!-- col -->
-    </div><!-- Row  -->
+          </div><!-- col -->
+        </div><!-- Row  -->
+        <div class="row p-5 the-buttons dark-navy mb-5">
+          <div class="col-lg-4 col-md-4 col-sm-12 text-center align-items-center">
+            <a class="btn salmon mb-2" href="#" role="button">Button Primary</a>
+            <p>This is the primary button color. <br>It's meant to stand out on dark backgrounds.</p>
+          </div>
+
+          <div class="col-lg-4 col-md-4 col-sm-12 text-center align-items-center">
+            <a class="btn btn-active salmon mb-2" href="#" role="button">Button 
+              Hover
+            </a>
+            <p>This is what the hover color of the button <br>should look like to indicate a clickable button.</p>
+          </div>
+
+          <div class="col-lg-4 col-md-4 col-sm-12 text-center align-items-center">
+            <a class="btn btn-no-fill mb-2" href="#" role="button">Button No Fill</a>
+            <p>Use this button as an alternative to the primary button.</p>
+          </div>
+
+        </div>
+
+                    <!-- Code example - this is what the prism.js and css are for added in this page - replace: all '<' with &lt; and  '>' with &gt; and all quotes with &quot; -->
+
+                    <div class="col code-background p-0">
+                      <pre class="language-markup"><code>
+                        <div class="row">
+                        <div class="col-lg-12 p-0">
+                          &lt;a class=&quot;btn salmon mb-2&quot; href=&quot;#&quot; role=&quot;button&quot;&gt;Button Primary&lt;/a&gt;
+                        </div>
+              
+                        <div class="col-lg-12 p-0">
+                          &lt;a class=&quot;btn btn-active salmon mb-2&quot; href=&quot;#&quot; role=&quot;button&quot;&gt;Button Hover&lt;/a&gt;
+                        </div>
+              
+                        <div class="col-lg-12 p-0">
+                          &lt;a class=&quot;btn btn-no-fill mb-2&quot; href=&quot;#&quot; role=&quot;button&quot;&gt;Button No Fill&lt;/a&gt;
+                      </div>
+                    </div>
+                        </code>
+                        </pre><!-- Code example -->
+                        </div><!-- col -->
       </div><!-- Container -->
       </div>      <!-- Content  -->
 
