@@ -83,25 +83,30 @@ main {
   color: rgba(255, 255, 255, 1);
   background-color: transparent;
 }
+.btn-toggle-nav{
+  color:#fff;
+}
 
+.link-light{
+  color: rgba(255, 255, 255, 0.75) !important;
+}
 /* this is the background color for the main areas in the sidebar- customize */
 .btn-toggle:hover,
 .btn-toggle:focus {
-  color: #C3583E;
-   background-color: rgba(255, 255, 255, 0.25);
+  color: #EEB2A3;
 }
 
 /* this is the background color for the sub areas in the sidebar- customize */
 .btn-toggle-nav a:hover,
 .btn-toggle-nav a:active {
-   background-color: rgba(255, 255, 255, 0.25); 
+  color:#EEB2A3 !important;
 }
 
 .activeLink{
   padding: .25rem .5rem;
   font-weight: 600;
-  color: rgba(0, 0, 0, .65);
-  background-color: #d2f4ea; 
+  color: #EEB2A3;
+  text-decoration: underline;
 }
 
 .btn-toggle::before {
@@ -113,7 +118,7 @@ main {
 }
 
 .btn-toggle[aria-expanded="true"] {
-  color: rgba(0, 0, 0, .85);
+  color: rgba(255, 255, 255, 1);
 }
 .btn-toggle[aria-expanded="true"]::before {
   transform: rotate(90deg);
@@ -150,7 +155,7 @@ main {
 }
 
 .page-link{
-  color: grey;
+  color: #EEB2A3;
 }
 
 .pagination {

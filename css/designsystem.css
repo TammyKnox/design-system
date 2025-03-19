@@ -5,6 +5,143 @@ Professor Putnam
 March 18, 2025
 */
 
+/* Imports */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    background-color: #FEF7F0;
+}
+a{
+    color:#EEB2A3;
+}
+
+a:hover, a:active, a:focus{
+    color: #C3583E !important;
+}
+
+h1, h2, h3, h4, h5, p, ul, li, body, .nav, .montserrat{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+h1{
+    font-size: 2.986rem;
+    font-weight:900;
+    text-transform: lowercase;
+}
+
+
+h2{
+    font-size: 2.488rem;
+    font-weight:700;
+    text-transform: lowercase;
+}
+
+
+h3{
+    font-size: 2.074rem;
+    font-weight:700;
+    text-transform: lowercase;
+}
+
+h4 {
+    font-size: 1.728rem;
+    font-weight:700;
+    text-transform: lowercase;
+}
+
+h5{
+    font-size: 1.44rem;
+    font-weight:700;
+    text-transform: lowercase;
+}
+
+.subtitle{
+    font-size:1.728rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.card-text{
+    font-size: 1rem;
+}
+
+.card-body{
+    min-height: 215px;
+}
+
+.card-img-top{
+    padding:1em;
+}
 .logo-container{
     margin-bottom: 2em;
+}
+
+ul.no-style{
+list-style-type:none;
+}
+
+.solid-divider{
+    border-bottom: 1px solid rgba(000, 000, 000, 0.25);
+}
+
+.bold{
+    font-weight: 600;
+}
+
+.fill-color{
+    width:100%;
+    min-height: 150px;
+}
+
+.dark-navy{
+    background-color: #17152C;
+}
+
+.salmon{
+    background-color:#C3583E;
+}
+
+.dark-salmon{
+    background-color: #9A3118;
+}
+
+.light-salmon{
+    background-color: #EEB2A3;
+}
+
+.light-beige{
+    background-color: #FEF7F0;
+}
+
+.gray{
+    background-color: #717070;
+}
+
+.almost-black{
+    background-color: #191818;
+}
+
+.white{
+    background-color: #FFFFFF;
+}
+
+@media screen and (min-width: 480px){
+    html{
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 786px){
+    html{
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 1440px){
+    html{
+        font-size: 18px;
+    }
 }
